@@ -12,6 +12,40 @@ body {
 	margin: 0px;
 }
 
+#background1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("../images/dan.jpg")
+}
+
+#background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("../images/james.jpg")
+}
+
+#background3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("../images/hiroshi.jpg")
+}
+
+
 #header {
 	display: block;
 	position: fixed;
@@ -82,7 +116,7 @@ body {
 	margin: 0px auto;
 }
 
-#dan, #james, #hiroshi {
+#about, #dan, #james, #hiroshi {
     transition-property: border-bottom;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -93,6 +127,17 @@ body {
 #dan:hover, #james:hover, #hiroshi:hover {
     padding-bottom: 7px;
     border-bottom: 2px solid white;
+}
+
+/*
+#about:hover {
+    padding-bottom: 7px;
+    border-bottom: 2px solid black;  
+}
+*/
+
+#about:hover {
+    opacity: 0.4;
 }
 
 #dan2, #james2, #hiroshi2 {
